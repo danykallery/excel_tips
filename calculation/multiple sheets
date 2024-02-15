@@ -1,0 +1,4 @@
+Calculate from multiple sheets value on a index page
+    danykallery/excel_cheats
+        =SUM(I13)-SUM('Mar24'!B26;'Apr24'!B26;'May24'!B26;'Jun24'!B26)
+        =SUM(I13)-SUM('Mar24:Jun24'!B26)
